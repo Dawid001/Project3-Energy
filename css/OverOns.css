@@ -1,0 +1,761 @@
+@charset "UTF-8";
+
+@import url("/PaybAck\ 400.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+html{
+    background-image: url("../images/giphy.gif");
+    background-repeat: repeat;
+}
+
+
+@media only screen and (max-width: 600px){
+    .header-overons h1{
+        color: white;
+        font-family: 'PaybAck','Bangers', cursive;
+        text-align: center;
+        position: relative;
+        top: 5vh;
+        font-size: 2rem;
+    
+    }
+    .container{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+        border-radius: 25%;
+    }
+    
+    .face.face2 img{
+        height: 10vh;
+        border-radius: 25%;
+    }
+    
+    .container{
+        width: 400px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        /* grid-gap: 0px; */
+        margin: 0 auto;
+    }
+    
+    .container .card{
+        position: relative;
+        width: 300px;
+        height: 400px;
+        border-radius: 25%;
+        margin: 0 auto;
+        background: linear-gradient(45deg, #d61ae3ed, #221e20);
+        box-shadow: 0 15px 60px rgba(0,0,0,.5);
+        margin: 5vh 0vw 0vh 13vw;
+    }
+    .container .card:nth-child(3){
+        position: relative;
+        width: 300px;
+        height: 400px;
+        border-radius: 25%;
+        margin: 0 auto;
+        background: linear-gradient(45deg, #d61ae3ed, #221e20);
+        box-shadow: 0 15px 60px rgba(0,0,0,.5);
+        margin: 5vh 0vw 0vh 13vw;
+    }
+    .container .card .face{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container .card .face.face1{
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .container .card .face.face1  img{
+        height: 20vh;
+        border-radius: 25%;
+        position: relative;
+        left: 4.5vw;
+    }
+    .container .card .face.face2{
+        background: #111;
+        border-radius: 25%;
+        transition: 0.5s;
+    }
+    p{
+        text-align: center;
+        
+    }
+    .container .card:hover .face.face2{
+        height: 60px;
+    
+    }
+    .container .card .face.face2:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        border-radius: 25%;
+        background: rgba(255,255,255,.1);
+    
+    }
+    .container .card .face.face2 h2{
+        margin: 0;
+        padding: 0;
+        font-family: 'PaybAck','Bangers', cursive;
+        color: #fff;
+        transition: 0.5s;
+        text-shadow:   0 2px 5px rgba(0, 0, 0, .2);
+    }
+    
+    .container .card:nth-child(1) .face.face2{
+        background: linear-gradient(45deg, #d61ae3bb, #221e20);
+    }
+    .container .card:nth-child(2) .face.face2{
+        background: linear-gradient(45deg, #d61ae3bb, #221e20);
+    }
+    .container .card:nth-child(3) .face.face2{
+        background: linear-gradient(45deg, #d61ae3bb, #221e20);
+    }
+    
+    .container .card:hover .face.face2 h2{
+        font-size: 2em;
+    }
+    
+    /* slideshow start */
+    .donatie h1{
+        color: white;
+        font-family: 'PaybAck','Bangers', cursive;
+        text-align: center;
+        position: relative;
+        top: 100vh;
+        font-size: 2rem;
+    }
+    #slideshow {
+        position: relative;
+        top: 100vh;
+        overflow: hidden;
+        height: 350px;
+        width: 350px;
+        margin: 0 auto;
+        border-radius: 25%;
+      }
+      
+      .slide-wrapper {
+        width: 2912px;
+        border-radius: 25%;
+        -webkit-animation: slide 18s ease infinite;
+      }
+      
+      .slide {
+        float: left;
+        height: 400px;
+        width: 728px;
+        border-radius: 10%;
+      }
+      
+      .slide-number {
+        color: #000;
+        text-align: center;
+        font-size: 10em;
+      }
+      .slide img{
+          height: 350px;
+          width: 350px;
+          border-radius: 30%;
+      }
+      
+      @-webkit-keyframes slide {
+        20% {margin-left: 0px;}
+        30% {margin-left: -728px;}
+        50% {margin-left: -728px;}
+        60% {margin-left: -1456px;}
+        70% {margin-left: -1456px;}
+        /* 80% {margin-left: -2184px;} */
+        /* 90% {margin-left: -2184px;} */
+      }
+
+      #Contact-pagina{
+        position: relative;
+        top: 105vh;
+      }
+      #Contact-pagina h1{
+          position: relative;
+          top: 0vh;
+        font-size: 2rem;
+        border-radius: 25px;
+        width: 30vw;
+        padding: 10px 120px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        
+      }
+      
+        #Contact-pagina p{
+        font-size: 1.3rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin: none;
+      }
+        .con-1 td{
+        background: linear-gradient(45deg, #d61ae3bb, #554d51);
+        padding: 0.5vh 5vw;
+        text-align: center;
+        border-radius: 25px;
+        font-size: 1.5rem;
+        font-family: 'PaybAck','Bangers', cursive;
+        color: white;
+
+      }
+        .con-2 input {
+        color: black;
+        padding: 1vh 15vw;
+        text-align: center;
+        border-radius: 25px;
+        
+      }
+        .contact-mobile {
+        display: inline-flex;
+        justify-content: center;
+        position: relative;
+        left: 15vw;
+        bottom: 3vh;
+      }
+        .form-3 input{
+        padding: 1vh 5vw;
+        border-radius: 25px;
+        background: linear-gradient(45deg, #d61ae3bb, #554d51);
+        color: white;
+        font-family: 'PaybAck','Bangers', cursive;
+      }
+        .form-3 input{
+        position: relative;
+        top: 40vh;
+        left: 35vw;
+      }
+        .contact-pc {
+        display: none;
+      }
+      footer{
+          display: none;
+      }
+}
+
+@media only screen and (min-width: 601px) AND (max-width: 1024px){
+.header-overons h1{
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    text-align: center;
+    position: relative;
+    top: 5vh;
+    font-size: 2rem;
+
+}
+.container{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    border-radius: 25%;
+}
+
+.face.face2 img{
+    height: 10vh;
+    border-radius: 25%;
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* grid-gap: 0px; */
+    margin: 0 auto;
+}
+
+.container .card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 25%;
+    margin: 0 auto;
+    background: linear-gradient(45deg, #d61ae3ed, #221e20);
+    box-shadow: 0 15px 60px rgba(0,0,0,.5);
+    margin: 5vh 5vw;
+}
+.container .card:nth-child(3){
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 25%;
+    margin: 0 auto;
+    background: linear-gradient(45deg, #d61ae3ed, #221e20);
+    box-shadow: 0 15px 60px rgba(0,0,0,.5);
+    margin: 5vh 0vw 0vh 25vw;
+}
+.container .card .face{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card .face.face1{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.container .card .face.face1  img{
+    height: 20vh;
+    border-radius: 25%;
+    position: relative;
+    left: 4.5vw;
+}
+.container .card .face.face2{
+    background: #111;
+    border-radius: 25%;
+    transition: 0.5s;
+}
+p{
+    text-align: center;
+    
+}
+.container .card:hover .face.face2{
+    height: 60px;
+
+}
+.container .card .face.face2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 25%;
+    background: rgba(255,255,255,.1);
+
+}
+.container .card .face.face2 h2{
+    margin: 0;
+    padding: 0;
+    font-family: 'PaybAck','Bangers', cursive;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow:   0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.container .card:nth-child(1) .face.face2{
+    background: linear-gradient(45deg, #d61ae3bb, #221e20);
+}
+.container .card:nth-child(2) .face.face2{
+    background: linear-gradient(45deg, #d61ae3bb, #221e20);
+}
+.container .card:nth-child(3) .face.face2{
+    background: linear-gradient(45deg, #d61ae3bb, #221e20);
+}
+
+.container .card:hover .face.face2 h2{
+    font-size: 2em;
+}
+
+/* slideshow start */
+.donatie h1{
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    text-align: center;
+    position: relative;
+    top: 45vh;
+    font-size: 2rem;
+}
+#slideshow {
+    position: relative;
+    top: 50vh;
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+    border-radius: 25%;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    border-radius: 25%;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+    border-radius: 25%;
+  }
+  
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  .slide img{
+      height: 100%;
+      width: 100%;
+      border-radius: 25%;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    /* 80% {margin-left: -2184px;} */
+    /* 90% {margin-left: -2184px;} */
+  }
+  /*Contactpagina-begin*/
+  #Contact-pagina{
+    position: relative;
+    top: 60vh;
+  }
+  #Contact-pagina h1{
+      position: relative;
+      top: -3vh;
+    font-size: 2rem;
+    width: 30vw;
+    padding: 0px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  #Contact-pagina p{
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: none;
+  }
+  .form-1 td{
+    background: linear-gradient(45deg, #d61ae3bb, #554d51);
+    padding: 1vh 3vw;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    
+  }
+  .form-2 input {
+    padding: 1vh 10vw;
+    text-align: center;
+    border-radius: 25px;
+    
+  }
+  .form-1, .form-2{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    left: 25vw;
+    top: 5vh;
+  }
+  .form-3 input{
+    padding: 1vh 5vw;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #d61ae3bb, #554d51);
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+  }
+  .form-3 input{
+    position: relative;
+    top: 7vh;
+    left: 45vw;
+  }
+  .contact-mobile{
+   display: none;
+  }
+  /* footer start */
+footer{
+    background-color: #d41ae3;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30vh;
+    margin: 0 auto;
+    text-align: center;
+    height: max-content;
+    padding: 3vh 0vw;
+    width: 100%;
+  }
+  footer img{
+    height: 4.5vh;
+    position: relative;
+    left: 2vw;
+    top: 0vh;
+    padding: 0vh 1vw;
+  }
+  .social p{
+    position: relative;
+    top: 3vh;
+    left: 5vw;
+  }
+  footer tr{
+    position: relative;
+    right: 3vw;
+    margin: 0 auto; 
+    font-size: 15px;  
+  }
+  footer input{
+    height: 2vh;
+    width: 15vw;
+    text-align: center;
+    color: rgba(123,60,55,1.0);
+    border-radius: 25px;
+    position: relative;
+    top: 3vh;
+  }
+  .Foo-mid p{
+    position: relative;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+
+  footer{
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px){
+.header-overons h1{
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    text-align: center;
+    position: relative;
+    top: 5vh;
+    font-size: 2rem;
+
+}
+.container{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    border-radius: 25%;
+}
+.face.face2 img{
+    height: 10vh;
+    border-radius: 25%;
+}
+
+.container{
+    width: 1200px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* grid-gap: 0px; */
+    margin: 0 auto;
+}
+
+.container .card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 25%;
+    margin: 0 auto;
+    background: linear-gradient(45deg, #d61ae3ed, #221e20);
+    box-shadow: 0 15px 60px rgba(0,0,0,.5);
+
+}
+.container .card .face{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card .face.face1{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.container .card .face.face1  img{
+    height: 20vh;
+    border-radius: 25%;
+    position: relative;
+    left: 4.5vw;
+}
+.container .card .face.face2{
+    background: #111;
+    border-radius: 25%;
+    transition: 0.5s;
+}
+p{
+    text-align: center;
+    
+}
+.container .card:hover .face.face2{
+    height: 60px;
+
+}
+.container .card .face.face2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 25%;
+    background: rgba(255,255,255,.1);
+
+}
+.container .card .face.face2 h2{
+    margin: 0;
+    padding: 0;
+    font-family: 'PaybAck','Bangers', cursive;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow:   0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.container .card:nth-child(1) .face.face2{
+    background: linear-gradient(45deg, #d61ae3bb, #221e20);
+}
+.container .card:nth-child(2) .face.face2{
+    background: linear-gradient(45deg, #d61ae3bb, #221e20);
+}
+.container .card:nth-child(3) .face.face2{
+    background: linear-gradient(45deg, #d61ae3bb, #221e20);
+}
+
+.container .card:hover .face.face2 h2{
+    font-size: 2em;
+}
+
+/* slideshow start */
+.donatie h1{
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    text-align: center;
+    position: relative;
+    top: 0vh;
+    font-size: 2rem;
+}
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+    border-radius: 25%;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    border-radius: 25%;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+    border-radius: 25%;
+  }
+  
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  .slide img{
+      height: 100%;
+      width: 100%;
+      border-radius: 25%;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    /* 80% {margin-left: -2184px;} */
+    /* 90% {margin-left: -2184px;} */
+  }
+
+  /* contact begin*/
+
+  #Contact-pagina h1{
+    font-size: 2rem;
+    width: 30vw;
+    padding: 50px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  #Contact-pagina p{
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: none;
+  }
+  .form-1 td{
+    background: linear-gradient(45deg, #d61ae3bb, #554d51);
+    padding: 1vh 3vw;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    
+  }
+  .form-2 input {
+    padding: 1vh 10vw;
+    text-align: center;
+    border-radius: 25px;
+    
+  }
+  .form-1, .form-2{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    left: 25vw;
+    top: 5vh;
+  }
+  .form-3 input{
+    padding: 1vh 5vw;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #d61ae3bb, #554d51);
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+  }
+  .form-3 input{
+    position: relative;
+    top: 7vh;
+    left: 45vw;
+  }
+  .contact-mobile{
+   display: none;
+  }
+
+}

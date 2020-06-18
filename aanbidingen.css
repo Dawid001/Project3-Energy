@@ -1,0 +1,190 @@
+html{
+  box-sizing: border-box;
+  padding: 5rem;
+  background: url('https://66.media.tumblr.com/8a9b1885a985ec9f015eab96edb85250/tumblr_ov8snaD6Mq1qeyvpto1_500.gifv') no-repeat center center fixed;
+  background-repeat: repeat;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 350px 50px;
+  grid-gap: 20px;
+  padding-top: 1rem;
+
+}
+
+.item, .grid-item {
+  background-color: #a815b5;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+.item > a, .grid-item > a {
+  display: block;
+}
+.item > a:link, .item > a:visited, .grid-item > a:link, .grid-item > a:visited {
+  text-decoration: none;
+  outline: none;
+  color: #FFF;
+}
+.item > a:hover, .item > a:focus, .grid-item > a:hover, .grid-item > a:focus {
+  background-color: #17242D;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+h2,h3 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.grid {
+  margin: 0 0 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.dark,.item:focus  {
+  background-color: #17242D;
+  outline: none;
+}
+
+.light{
+  background-color: #87B3D6;
+  color: #17242D;
+}
+
+
+ /* .footer {
+  z-index: 1;
+  bottom: -200px;
+  --footer-background:#d41ae3;
+  display: grid;
+  position: relative;
+  grid-area: footer;
+  min-height: 12rem;
+}
+body .footer .bubbles {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 1rem;
+  background: var(--footer-background);
+  -webkit-filter: url("#blob");
+          filter: url("#blob");
+}
+body .footer .bubbles .bubble {
+  position: absolute;
+  left: var(--position, 50%);
+  background: var(--footer-background);
+  border-radius: 100%;
+  -webkit-animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+          animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+  -webkit-transform: translate(-50%, 100%);
+          transform: translate(-50%, 100%);
+}
+body .footer .content {
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 4rem;
+  padding: 2rem;
+  background: var(--footer-background);
+}
+body .footer .content a, body .footer .content p {
+  color: #F5F7FA;
+  text-decoration: none;
+}
+body .footer .content b {
+  color: white;
+}
+body .footer .content p {
+  margin: 0;
+  font-size: .75rem;
+}
+body .footer .content > div {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+body .footer .content > div > div {
+  margin: 0.25rem 0;
+}
+body .footer .content > div > div > * {
+  margin-right: .5rem;
+}
+body .footer .content > div .image {
+  align-self: center;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.25rem 0;
+  background-size: cover;
+  background-position: center;
+}
+
+@-webkit-keyframes bubble-size {
+  0%, 75% {
+    width: var(--size, 4rem);
+    height: var(--size, 4rem);
+  }
+  100% {
+    width: 0rem;
+    height: 0rem;
+  }
+}
+
+@keyframes bubble-size {
+  0%, 75% {
+    width: var(--size, 4rem);
+    height: var(--size, 4rem);
+  }
+  100% {
+    width: 0rem;
+    height: 0rem;
+  }
+}
+@-webkit-keyframes bubble-move {
+  0% {
+    bottom: -4rem;
+  }
+  100% {
+    bottom: var(--distance, 10rem);
+  }
+}
+@keyframes bubble-move {
+  0% {
+    bottom: -4rem;
+  }
+  100% {
+    bottom: var(--distance, 10rem);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .item {
+    width: 80%;
+    padding-bottom: 5em;
+  }
+  img {
+    width: 250px;
+    margin-left: -20px;
+  }
+} */

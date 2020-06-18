@@ -1,0 +1,102 @@
+html {
+    background-image: url(https://66.media.tumblr.com/8a9b1885a985ec9f015eab96edb85250/tumblr_ov8snaD6Mq1qeyvpto1_500.gifv);
+    background-repeat: repeat;
+}
+@import url("./PaybAck\ 400.ttf");
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'PaybAck','Bangers', cursive;
+}
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-align: center;
+	flex-direction: row;
+}
+.box{
+	width: 400px;
+	height: 400px;
+	box-shadow: 0px 0px 7px 3px gray;
+	text-align: center;
+	margin: 25px auto;
+	transition: all 0.5s;
+}
+.box:hover{
+	filter: brightness(1.2);
+}
+h3{
+	margin-top: 10px;
+	font-size: 16px;
+	color: white;
+}
+.box-sub{
+	height: 50px;
+	background-color: rgba(0,0,0,0.5);
+	line-height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 330px;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+}
+
+.circle{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: linear-gradient(to top, blue, skyblue, white);
+	box-shadow: 0px 0px 10px 2px blue;
+	margin: 60px auto;
+	line-height: 88px;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 400;
+	color: white;
+}
+.bg1{
+	background: url(images/nature.jpg) no-repeat center center;
+	background-size: cover;
+}
+.bg2{
+	background: url(images/nature.jpg) no-repeat center center;
+	background-size: cover;
+}
+.bg3{
+	background: url(images/nature.jpg) no-repeat center center;
+	background-size: cover;
+}
+.bg4{
+	background: url(images/nature.jpg) no-repeat center center;
+	background-size: cover;
+}
+.c1{
+	background: linear-gradient(to top, red, orange, white);
+	box-shadow: 0px 0px 10px 2px red;
+}
+.c2{
+	background: linear-gradient(to top, purple, blue, pink);
+	box-shadow: 0px 0px 10px 2px purple;
+}
+.c3{
+	background: linear-gradient(to top, green, darkgreen, white);
+	box-shadow: 0px 0px 10px 2px green;
+}
+img{
+	width: 300px;
+	height: 250px;
+	margin-top: -450px;
+	margin-left: 10px;
+}
+

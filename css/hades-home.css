@@ -1,0 +1,434 @@
+@charset "UTF-8";
+
+@import url("/PaybAck\ 400.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+html{
+    background-image: url("../images/giphy.gif");
+    background-repeat: repeat;
+    background-color: black;
+}
+body{
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 600px){
+/* background-css start */
+.smoke img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    translate: 0% 0%;
+}
+.objects img{
+    width: 80%;
+    position: absolute;
+    top: -5vh;
+    left: 15%;
+}
+.cans {
+    height: 200px;
+    width: 100px;
+    position: absolute;
+    top: -35px;
+    left: 160px;
+}
+.cans img{
+    height: 350px;
+    width: 120px;
+}
+.about-us h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 5vh;
+}
+.about-us img{
+    width: 28vw;
+    padding: 0;
+    position: absolute;
+    top: 37%;
+    left: 67vw;
+}
+.about-us p{
+    color: white;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.aanbiedingen a{
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    font-size: 2rem;
+    text-decoration: none;
+    width: max-content;
+    position: relative;
+    left: 20vw;
+    top: 220px;
+}
+.aanbiedingen a:hover{
+    color: #d41ae3;
+}
+.aanbieding {
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 210px;
+}
+.aanbiedingInfo {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    position: relative;
+    top: 210px;
+    
+}
+ .evenementen{
+    background-color: #d41ae3;
+    margin: 30vh 0vw 0vh 0vw;
+}
+.evenementen div{
+    text-align: center;
+    padding: 3vh 0vw;
+    color: white;
+}
+.evenementen h2, .evenementen a {
+    font-family: 'PaybAck','Bangers', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+.evenementen a:hover{
+    color: black;
+}
+#Contact-pagina{
+    position: relative;
+    top: 515vh;
+  }
+  #Contact-pagina h1{
+    font-size: 2rem;
+    color:  rgba(123,60,55,10.0);
+    background-color: rgba(211,182,116,10.0);
+    border-radius: 25px;
+    width: 30vw;
+    padding: 10px 120px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: solid;
+    border-width: 1px;
+  }
+  
+    #Contact-pagina p{
+    font-size: 1.6rem;
+    color: rgba(123,60,55,10.0);
+    display: flex;
+    justify-content: center;
+    margin: none;
+  }
+    .con-1 td{
+    background-color: rgba(123,60,55,1.0);
+    padding: 0.5vh 5vw;
+    text-align: center;
+    border-radius: 25px;
+    color: rgba(211,182,116,1.0);
+    font-size: 1.5rem;
+  }
+    .con-2 input {
+    color: rgba(123,60,55,10.0);
+    padding: 1vh 15vw;
+    text-align: center;
+    border-radius: 25px;
+    
+  }
+    .contact-mobile {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    left: 15vw;
+    bottom: 3vh;
+  }
+    .form-3 input{
+    padding: 1vh 5vw;
+    border-radius: 25px;
+    color: rgba(123,60,55,10.0);
+  }
+    .form-3 input{
+    position: relative;
+    top: 45vh;
+    left: 35vw;
+  }
+    .contact-pc {
+    display: none;
+  }
+
+  
+}
+
+@media only screen and (min-width: 601px) AND (max-width: 1024px){
+    /* background-css start */
+.smoke img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    translate: 0% -7%;
+}
+.objects img{
+    width: 55%;
+    position: absolute;
+    top: 0;
+}
+.cans {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+}
+
+.cans img{
+    height: 450px;
+    width: 150px;
+}
+.about-us h1{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 14%;
+    left: 53%;
+}
+.about-us img{
+    width: 15vw;
+    position: absolute;
+    top: 10%;
+    left: 84%;
+}
+.about-us p{
+    color: white;
+    position: absolute;
+    width: 45vw;
+    top: 20%;
+    left: 53%;
+    text-align: center;
+}
+
+.aanbiedingen a{
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    font-size: 3rem;
+    width: max-content;
+    position: relative;
+    left: 25%;
+    top: 0px;
+    text-decoration: none;
+}
+.aanbiedingen a:hover{
+    color: #d41ae3;
+}
+.aanbieding {
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: -2vh;
+}
+
+.aanbiedingInfo {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: -45px;
+}
+
+ .evenementen{
+    background-color: #d41ae3;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5vh 0vw;
+}
+.evenementen div{
+    width: 300px;
+    text-align: center;
+    padding: 3vh 0vw;
+    color: white;
+}
+.evenementen h2, .evenementen a {
+    font-family: 'PaybAck','Bangers', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+.evenementen a:hover{
+    color: black;
+}
+
+}
+@media only screen and (min-width:1025px){
+/* background-css start */
+.smoke img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    translate: 0% -10%;
+}
+.objects img{
+    width: 50%;
+    position: absolute;
+    top: 0;
+}
+.cans{
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    top: -25px;
+    left: 220px;
+}
+
+/* Intro start */
+.about-us h1{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+.about-us img{
+    position: absolute;
+    top: 25%;
+    left: 84%;
+}
+.about-us p{
+    color: white;
+    position: absolute;
+    width: 40vw;
+    top: 45%;
+    left: 58%;
+    font: 2rem;
+    text-align: center;
+}
+
+.aanbiedingen a{
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    font-size: 3rem;
+    width: max-content;
+    position: relative;
+    left: 37%;
+    top: -100px;
+    text-decoration: none;
+}
+.aanbiedingen a:hover{
+    color: #d41ae3;
+}
+.aanbieding {
+    color: white;
+    font-family: 'PaybAck','Bangers', cursive;
+    font-size: 2rem;
+    width: max-content;
+    position: relative;
+    left: 44%;
+    top: -100px;
+}
+
+.aanbiedingInfo {
+    color: white;
+    font-size: 1.5rem;
+    width: 70vw;
+    text-align: center;
+    position: relative;
+    left: 16%;
+    top: -120px;
+}
+
+ .evenementen{
+    background-color: #d41ae3;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5vh 0vw;
+}
+.evenementen div{
+    width: 300px;
+    text-align: center;
+    padding: 3vh 0vw;
+    color: white;
+}
+.evenementen h2, .evenementen a {
+    font-family: 'PaybAck','Bangers', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+.evenementen a:hover{
+    color: black;
+}
+
+#Contact-pagina{
+  position: relative;
+  top: 515vh;
+}
+#Contact-pagina h1{
+  font-size: 2rem;
+  color:  rgba(123,60,55,10.0);
+  background-color: rgba(211,182,116,10.0);
+  border-radius: 25px;
+  width: 30vw;
+  padding: 10px 120px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: solid;
+  border-width: 1px;
+}
+
+  #Contact-pagina p{
+  font-size: 1.6rem;
+  color: rgba(123,60,55,10.0);
+  display: flex;
+  justify-content: center;
+  margin: none;
+}
+  .con-1 td{
+  background-color: rgba(123,60,55,1.0);
+  padding: 0.5vh 5vw;
+  text-align: center;
+  border-radius: 25px;
+  color: rgba(211,182,116,1.0);
+  font-size: 1.5rem;
+}
+  .con-2 input {
+  color: rgba(123,60,55,10.0);
+  padding: 1vh 15vw;
+  text-align: center;
+  border-radius: 25px;
+  
+}
+  .contact-mobile {
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  left: 15vw;
+  bottom: 3vh;
+}
+  .form-3 input{
+  padding: 1vh 5vw;
+  border-radius: 25px;
+  color: rgba(123,60,55,10.0);
+}
+  .form-3 input{
+  position: relative;
+  top: 45vh;
+  left: 35vw;
+}
+  .contact-pc {
+  display: none;
+}
+
+
+
+}
